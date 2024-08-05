@@ -1,0 +1,25 @@
+// {
+//   "extends": [
+//     "next",
+//     "next/core-web-vitals"
+//   ],
+//   "rules": {
+//     "semi": ["error", "always"]
+//   }
+// }
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    // Your custom rules here
+  }
+}
